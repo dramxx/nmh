@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  padding: 2em;
+  background-color: #f8f8f8;
+}
+
+.paper {
+  padding: 1em;
+}
+
+.addBookHeading {
+  padding-top: 1em;
+}
+
+.inputField {
+  width: 100%;
+}
+
+.bookCard {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.bookList {
+  max-height: 80vh;
+  padding-right: 1em;
+
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.bookFilter {
+  margin-bottom: 1em;
+}
+
+.breakText {
+  word-wrap: break-word;
+}
+
+.deleteButton {
+  margin-left: 1em !important;
+}
